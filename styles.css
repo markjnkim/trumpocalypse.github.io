@@ -1,0 +1,101 @@
+body {
+	background-color: #feccb4;
+	margin: 0 auto;
+	font-family: Georgia;
+	width: 50%;
+}
+h1 {
+	/*width: 100%;*/
+	text-align: center;
+	/*margin: 0 auto;*/
+}
+
+section {
+	margin: 0 auto;
+}
+table {
+	margin: 0 auto;
+}
+.bball_bground {
+	position: relative;
+	overflow: hidden;
+}
+
+.bball_bground h1 {
+	position: relative;
+	padding: 20px;
+	z-index: 2;
+}
+.bball_bground img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+	opacity: 0.4;
+
+}
+a.visited {
+	color: red;
+}
+/*aside {
+	display: inline-block;	
+	vertical-align: top;
+	height: 100%;
+	width: 20%;
+	background-color: #997c9c;
+	border-radius: 25px;
+	min-width: 100px;
+	padding:10px;
+	margin: 0 auto;
+	float: right;
+	min-width: 200px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	display: inline-block;
+	vertical-align: top;
+	height: auto;
+	width: 20%;
+	float: left;
+	border: 3px solid black
+	border-radius: 25px;
+	background-color: #c94203;
+	color: white;
+	font-family: Georgia;
+	padding: 20px;
+	margin: 20px;*/
+
+}
+#float {
+	padding: 25px;
+	margin: 15px;
+	border: 3px solid black;
+	font-weight: 3em;
+	font-family: helvetica;
+	text-shadow: 2px 2px 8px white;
+	border-radius: 25px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+
+}
+
+@media screen and (min-width: 900px) {
+	body {
+		width: 70%;
+	}
+	aside {
+		width: 20%;
+		display: inline-block;
+		vertical-align: top;
+		border: 3px solid black;
+		border-radius: 25px;
+		float: right;
+		background-color: #c94203;
+		color: white;
+		font-family: Georgia;
+		padding: 20px;
+		margin: 10px;
+	}
+

@@ -2,82 +2,94 @@
 <html>
 <head>
 	<title>Who's the MVP?</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body bgcolor="#BCFCFA">
-	<h1>Who will be the NBA's Most Valuable Player?</h1>
-	<table style="margin-left: 60px;">
-		<tr>
-			<th>Russell Westbrook</th>
-			<th>&nbsp;</th>
-			<th>James Harden</th>
-		</tr>
-		<tr>
-			<td><img src="russell_westbrook.jpg" alt="westbrook" height="204" width="254"></td>
-			<th>&nbsp;</th>
-			<td><img src="james_harden.jpg" alt="harden" height="204" width="304"></td>
-		</tr>
-	</table>
-	<table bgcolor="white" border="1">
-		<tr>
-			<th bgcolor="#C4C9C9" colspan="5">2016-2017 NBA Season Statistics</th>
-		</tr>
-		<tr>
-			<th style="text-align: left;">Player</th>
-			<th>Points Per Game</th>
-			<th>Assists Per Game</th>
-			<th>Rebounds Per Game</th>
-			<th>Team Win Percentage</th>
-		</tr>
-		<tr>
-			<td style="text-align: left;">Russell Westbrook</td>
-			<td style="text-align: center;">31.1</td>
-			<td style="text-align: center;">10.4</td>
-			<td style="text-align: center;">10.5</td>
-			<td style="text-align: center;">56%</td>
-		</tr>
-		<tr>
-			<td style="text-align: left;">James Harden</td>
-			<td style="text-align: center">29.2</td>
-			<td style="text-align: center;">11.3</td>
-			<td style="text-align: center;">8.3</td>
-			<td style="text-align: center;">69%</td>
-		</tr>
-	</table><br>
+<body>
+	<main>
+	<header class="bball_bground">
+		<h1>Who will be the NBA's Most Valuable Player?</h1>
+		<img src="basketball_bground.jpg" alt="basketball">
+	</header>
+	<section>
+		<table>
+			<tr>
+				<th>Russell Westbrook</th>
+				<th>&nbsp;</th>
+				<th>James Harden</th>
+			</tr>
+			<tr>
+				<td><img src="russell_westbrook.jpg" alt="westbrook" height="204" width="254"></td>
+				<th>&nbsp;</th>
+				<td><img src="james_harden.jpg" alt="harden" height="204" width="354"></td>
+			</tr>
+		</table>
 
-	<p> Still not sure? Click <a href="http://www.landofbasketball.com/player_comparison/james_harden_vs_russell_westbrook.htm" target="_blank"><strong>here</strong></a> for a lot more stats and information</p>
-	<nav>
-	<table bgcolor="white" style="margin-left: 140px">
-		<tr>
-			<th>
-			<fieldset>
-	 		<p>What is the MVP?</p>
-				<ul>
-					<li style="text-align: left">The best player?</li>
-					<li style="text-align: left;">The most valuable to his respective team?</li>
-					<li style="text-align: left;">The most popular player?</li>
-					<li style="text-align: left;">The best player on the best team?</li>
-				</ul>
-			</fieldset>
-			</th>
-		</tr>
-	</table>
-	 
-	</nav>
-	<p>This video will explains more about the award</p>
+		<table bgcolor="white" border="1">
+			<tr>
+				<th bgcolor="#C4C9C9" colspan="5">2016-2017 NBA Season Stat Comparison</th>
+			</tr>
+			<tr>
+				<th style="text-align: left;">Player</th>
+				<th>Points Per Game</th>
+				<th>Assists Per Game</th>
+				<th>Rebounds Per Game</th>
+				<th>Team Win Percentage</th>
+			</tr>
+			<tr>
+				<td style="text-align: left;">Russell Westbrook</td>
+				<td style="text-align: center;">31.1</td>
+				<td style="text-align: center;">10.4</td>
+				<td style="text-align: center;">10.5</td>
+				<td style="text-align: center;">56%</td>
+			</tr>
+			<tr>
+				<td style="text-align: left;">James Harden</td>
+				<td style="text-align: center">29.2</td>
+				<td style="text-align: center;">11.3</td>
+				<td style="text-align: center;">8.3</td>
+				<td style="text-align: center;">69%</td>
+			</tr>
+		</table>
+	</section>		
+	</body>
 
-	<iframe style="margin-left: 110px" width="420" height="350" src="https://www.youtube.com/embed/ipTZmH24Moc" allowfullscreen></iframe><br><br>
-		<form action="thank_you.html" method="get" id="MVP">
-		<div>
+	<section>
+	<aside>
+		<header>
+			<h3>What is the MVP?</h3>
+		</header>	
+			<ul >
+				<li style="text-align: left">The best player?</li>
+				<li style="text-align: left;">The most valuable to his respective team?</li>
+				<li style="text-align: left;">The most popular player?</li>
+				<li style="text-align: left;">The best player on the best team?</li>
+			</ul>
+	</aside>
+
+	<header>
+		<h3>Extra Research</h3>
+	</header>
+	<aside>
+		<p>Need a little more info?  Click <a href="http://www.landofbasketball.com/player_comparison/james_harden_vs_russell_westbrook.htm" target="_blank" target="_blank"><strong>HERE</strong></a> for a lot more stats from this year and years past</p>
+	</aside>
 		
-			<label><strong>So now who do you think will win the MVP?</strong></label>
-			<select name="MVP">
-				<option value="westbrook">Russell Westbrook</option>
-				<option value="harden">James Harden</option>
-			</select>
-			<button type="submit">Submit</button><b>
+	<aside>
+		<header>
+				<h2>Click below for some sweet highlights</h2>
+		</header>
+			
+		<iframe  width="420" height="350" src="https://www.youtube.com/embed/ipTZmH24Moc" allowfullscreen></iframe>
+			<form action="thank_you.html" method="get" id="MVP">
+				<div id="float">
+				<label><strong>So now who do you think will win the MVP?</strong></label>
+				<select name="MVP">
+					<option value="westbrook">Russell Westbrook</option>
+					<option value="harden">James Harden</option>
+				</select>
+				<button type="submit">Submit</button>
+				</div>	
+			</form>
+	</aside>		
+	</section>
 		
-		</div>	
-	</form>
-
-</body>
 </html>
